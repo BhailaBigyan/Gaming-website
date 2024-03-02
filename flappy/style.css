@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0 auto; /* Center the content horizontally */
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  user-select: none;
+}
+
+header {
+  margin: 0 auto;
+  width: 431px;
+}
+
+h1 {
+  background: url("bird.jpeg") 0% 340px;
+  padding: 0rem 0;
+  margin: 0;
+}
+
+.score-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 6px;
+  background: #5EE270;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#canvas{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
